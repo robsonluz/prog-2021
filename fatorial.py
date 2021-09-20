@@ -7,8 +7,7 @@ for i in range (2,n):
   n = n*i
 print(n)
 
-
-
+#
 
 fatorial= 1
 n= 4
