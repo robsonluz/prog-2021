@@ -1,12 +1,4 @@
-
-numeros = [8, 3, 9, 4, 3, 4, 1, 3, 2]
-print(numeros)
-for j in range(len(numeros) - 1):
-  for i in range(len(numeros) - 1):
-    if numeros[i] > numeros[i + 1]:
-      aux = numeros[i]
-      numeros[i]= numeros[i + 1]
-      numeros[i + 1]= aux
-
-print (numeros)
+# Implemente um algoritmo que imprima a sequência de fibonacci. Pergunte para o usuário quantos números, da sequência de fibonacci, ele quer que sejam impressos.
+# Ex: n = 6
+# 1, 1, 2, 3, 5, 8
 
