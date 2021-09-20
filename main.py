@@ -2,3 +2,14 @@
 # Ex: n = 6
 # 1, 1, 2, 3, 5, 8
 
+a = 0
+b = 1
+
+n = 10 
+for i in range (n):
+  print (b)
+  aux = b 
+  b = a + b
+  a = aux
+
+
